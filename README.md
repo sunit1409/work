@@ -13,3 +13,8 @@ output:
     1.6424
 than u will get weired answer as matlab tries to give it exponentiared to certain values, in order to understand the value inspect result. 
 it is there where u will understand the same better.
+
+
+Suggestions :
+Use funny.m as long as warnings does not pop up after that use better.m(golden ratio test based) but the golden ration test based algorithm is an approximation to the original algorithm and the approximation can be bettered by taking higher values of the fibonacci sequence for approximation , it is to be noted that a meagre difference in decimal point when exponentiated leads to huge differences and this can be seen in this case.
+
