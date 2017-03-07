@@ -9,6 +9,7 @@ for i = 1 : t
  
     else
         result(i) = fast_exp(377/233 ,input_data(i)-11 , power(10,9) + 7) * 233;
+        result(i) = ceil(result(i));
     end
 end
 
