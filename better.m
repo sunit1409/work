@@ -8,7 +8,7 @@ for i = 1 : t
         result(i) = mod(as_per_question(input_data(i)) , power(10,9) + 7  );
  
     else
-        result(i) = fast_exp(377/233 ,input_data(i)-11 , power(10,9) + 7) * 233;
+        result(i) = mod(fast_exp(377/233 ,input_data(i)-11 , power(10,9) + 7) * 233,  power(10,9) + 7  );
         result(i) = ceil(result(i));
     end
 end
